@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="css/icon.svg">
+    <link rel="stylesheet" href="css/reset.css ">
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@300&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Text Descriptografia</title>
+</head>
+<body>
+    <div class="imagem">
+        <img src="css/icon.svg" alt="Logo Alura">
+    </div>
+    <main>
+        <div class="container">
+            <section class="section1">                  
+                <textarea aria-describedby="input_desc" name="text_input" id="text_input" required placeholder="Digite um texto para ser criptografado ou descriptografado"></textarea>
+                <p class="info">&rarr; Insira textos apenas em letra minúscula e sem acentos.</p>
+                <button class="desc" id="desc">Descriptografar</button>
+                <button class="crip" id="crip">Criptografar</button>
+            </section>
+            <section class="section2" id="display_section">
+                <div id ="text_exit">
+                  <p class="results">Nenhuma mensagem encontrada!<br> Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                <div class="" id="results_container">
+                    <button class="hidden" id="copiar">Copiar</button>
+                </div>  
+            </section>
+        </div>
+    </main>
+    <script src="javascript/responsivo.js"></script>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
